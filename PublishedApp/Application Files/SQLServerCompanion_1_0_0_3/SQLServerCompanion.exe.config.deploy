@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="SQLServerCompanion.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <SQLServerCompanion.Properties.Settings>
+            <setting name="NetworkProtocol" serializeAs="String">
+                <value>TcpIp</value>
+            </setting>
+            <setting name="SQLServerName" serializeAs="String">
+                <value>(local)</value>
+            </setting>
+            <setting name="UseIntegratedAuthentication" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="SQLUsername" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SQLPassword" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ScriptFilePath" serializeAs="String">
+                <value>C:\SubversionData\Temp</value>
+            </setting>
+        </SQLServerCompanion.Properties.Settings>
+    </userSettings>
+</configuration>

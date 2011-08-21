@@ -1,0 +1,19 @@
+Connect - Done
+Disconnect - 
+
+Script tab group
+View tables
+stored procs
+indexes
+triggers
+
+Script all
+script stored procs
+script indexes
+Foreign keys
+
+
+Help
+
+About
+Documentation
