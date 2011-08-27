@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SQLServerCompanion.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NetworkProtocol" Type="Microsoft.SqlServer.Management.Common.NetworkProtocol" Scope="User">
+      <Value Profile="(Default)">TcpIp</Value>
+    </Setting>
+    <Setting Name="SQLServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(local)</Value>
+    </Setting>
+    <Setting Name="UseIntegratedAuthentication" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SQLUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SQLPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ScriptFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SubversionData\Temp</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="SQLServerCompanion.Views.HomepageView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:CinchV2="clr-namespace:Cinch;assembly=Cinch.WPF"
+        xmlns:meffed="http:\\www.codeplex.com\MEFedMVVM" 
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"             
+        xmlns:ctl="clr-namespace:SQLServerCompanion.Controls"     
+        xmlns:db="clr-namespace:Codeplex.Dashboarding;assembly=Codeplex.Dashboarding" 
+        xmlns:helperClasses="clr-namespace:SQLServerCompanion.HelperClasses"     
+        meffed:ViewModelLocator.ViewModel="HomepageViewModel"
+        mc:Ignorable="d" 
+        d:DesignHeight="300" d:DesignWidth="300">
+    
+        <UserControl.Resources>
+            <Style TargetType="{x:Type StackPanel}">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding IsLoading}" Value="True">
+                        <Setter Property="Opacity" Value="0.25" />
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+
+            <Style x:Key="HoverColor" TargetType="Border">
+                <Setter Property="Opacity" Value="0.25"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Trigger.EnterActions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="(Opacity)" To="1" Duration="0:0:0.5" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </Trigger.EnterActions>
+                        <Trigger.ExitActions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="(Opacity)" To=".25" Duration="0:0:1.0" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </Trigger.ExitActions>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </UserControl.Resources>
+        <Grid Width="Auto">
+            <Canvas Style="{StaticResource LoadingStyle}">
+                <ctl:WorkingImage ImageSize="50" ImageVisibility="Visible"/>
+            </Canvas>
+
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="5" Background="Transparent">
+                <StackPanel Orientation="Vertical" Margin="10" HorizontalAlignment="Stretch">
+                <Border BorderBrush="SteelBlue" BorderThickness="2" CornerRadius="5" Margin="5" Width="Auto"  Background="Black">
+                        <StackPanel DockPanel.Dock="Left">
+                            <Label Content="SQL Server Companion" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"  Foreground="White"/>                            
+                         </StackPanel>
+                    </Border>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Width="Auto" HorizontalAlignment="Center" Height="Auto">
+                        <StackPanel Width="550">
+                            <StackPanel DockPanel.Dock="Right" Height="189" Width="Auto" >
+                                <Canvas Name="StickyCanvas" Margin="30,-40,0,0" Opacity="0.4">
+                                    <Canvas.RenderTransform>
+                                        <RotateTransform x:Name="AnimatedRotateTransform" CenterX="90" CenterY="18" Angle="0" />
+                                    </Canvas.RenderTransform>
+                                    <Canvas.Triggers>
+                                        <EventTrigger RoutedEvent="Canvas.MouseEnter">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetName="AnimatedRotateTransform" Storyboard.TargetProperty="Angle" To="30" Duration="0:0:0.5" FillBehavior="Stop"/>
+                                                    <DoubleAnimation Storyboard.TargetName="AnimatedRotateTransform" Storyboard.TargetProperty="Angle" To="14" Duration="0:0:0.5" FillBehavior="HoldEnd"/>
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Opacity)" To="1" Duration="0:0:1.5" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                        <EventTrigger RoutedEvent="Canvas.MouseLeave">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetName="AnimatedRotateTransform" Storyboard.TargetProperty="Angle" To="0" Duration="0:0:0.75" FillBehavior="HoldEnd"/>
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Opacity)" To="0.25" Duration="0:0:1.5" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                    </Canvas.Triggers>
+                                    <Image Source="/Images/Sticky.png" Width="300" Height="260" Panel.ZIndex="99" />
+                                    <Grid Margin="70,35" Panel.ZIndex="100">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="190" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.RenderTransform>
+                                            <RotateTransform CenterX="150" CenterY="130" Angle="-14" />
+                                        </Grid.RenderTransform>
+                                        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center">
+                                            <Label Content="Welcome" FontSize="12" Foreground="Black" FontWeight="Bold" HorizontalAlignment="Center" Margin="5"/>
+                                        </StackPanel>
+                                        <StackPanel Grid.Row="1" Grid.Column="0" Width="190" Height="110">
+                                            <TextBlock Text="Tip 1 : Double click on the left to select an object." Foreground="Black" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap" Width="170" Margin="10,0,10,0"/>
+                                            <TextBlock Text="Tip 2 : Select db objects to view from the blue dropdown on the left." Foreground="Black" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap" Width="170" Margin="10,0,10,0"/>
+                                    </StackPanel>
+                                    </Grid>
+                                </Canvas>
+                            </StackPanel>
+
+                        </StackPanel>
+
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+</UserControl>

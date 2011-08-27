@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="SQLServerCompanion.Views.TablesView"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:CinchV2="clr-namespace:Cinch;assembly=Cinch.WPF"
+            xmlns:meffed="http:\\www.codeplex.com\MEFedMVVM" 
+            xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"             
+            xmlns:ctl="clr-namespace:SQLServerCompanion.Controls"     
+            meffed:ViewModelLocator.ViewModel="TablesViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="rtfSQLScript"  Text="{Binding Path=SQLScript}" 
+                 Grid.Row="0"
+                 VerticalScrollBarVisibility="Auto"
+                 Width="Auto" MaxHeight="200"      
+                 Margin="10"
+                 />
+
+        <Canvas Style="{StaticResource LoadingStyle}" Panel.ZIndex="100">
+            <ctl:WorkingImage ImageSize="50" ImageVisibility="Visible"/>
+        </Canvas>
+
+        <DataGrid x:Name="grdTableData" DataContext="{Binding TableData}"
+                  Margin="5" 
+                  VerticalScrollBarVisibility="Auto" 
+                  HorizontalScrollBarVisibility="Auto"
+                  Grid.Row="1"
+                  ItemsSource="{Binding Path=Table}" 
+                  MaxHeight="300"
+                  AutoGenerateColumns="True" 
+                  ColumnHeaderStyle="{DynamicResource MyColumnHeaderContainerStyle}"
+                  />
+
+    </Grid>
+</UserControl>

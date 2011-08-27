@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="SQLServerCompanion.Views.TriggersView"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:CinchV2="clr-namespace:Cinch;assembly=Cinch.WPF"
+            xmlns:meffed="http:\\www.codeplex.com\MEFedMVVM" 
+            xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"             
+            xmlns:ctl="clr-namespace:SQLServerCompanion.Controls"     
+            meffed:ViewModelLocator.ViewModel="TriggersViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="0">
+            <Button Command="{Binding DoCopyToClipboardCommand}" Margin="5" Style="{DynamicResource NormalButtonStyle}" Width="150">Copy to clip board</Button>
+            <Button Command="{Binding DoSaveAsCommand}" Margin="5" Style="{DynamicResource NormalButtonStyle}" Width="150">Save to file</Button>
+        </StackPanel>
+
+        <TextBox Width="Auto" x:Name="rtfSQLScript" Grid.Row="1" Text="{Binding Path=SQLScript}" VerticalScrollBarVisibility="Auto"/>
+
+        <Canvas Style="{StaticResource LoadingStyle}">
+            <ctl:WorkingImage ImageSize="50" ImageVisibility="Visible"/>
+        </Canvas>
+
+    </Grid>
+</UserControl>

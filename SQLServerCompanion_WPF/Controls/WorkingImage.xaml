@@ -1,0 +1,162 @@
+﻿<UserControl x:Class="SQLServerCompanion.Controls.WorkingImage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             RenderTransformOrigin="0,0" HorizontalAlignment="Left" VerticalAlignment="Top" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="WorkingImageColour">Black</SolidColorBrush>
+    </UserControl.Resources>
+    
+    <Grid x:Name="ImageCanvas" Width="Auto" Height="Auto">
+        <DockPanel x:Name="WorkingDockPanel">
+            <Grid x:Name="LayoutRoot" DockPanel.Dock="{Binding ElementName=LayoutRoot, Path=Tag}" Background="Transparent" Width="60" Height="{Binding ElementName=LayoutRoot, Path=Width}" Visibility="Visible" Tag="Top">
+                <Grid x:Name="WaitGridRoot" RenderTransformOrigin="0.5,0.5" Grid.Column="0" Margin="2" MaxWidth="{Binding ElementName=LayoutRoot, Path=Width}" MaxHeight="{Binding ElementName=LayoutRoot, Path=Height}">
+                    <Grid.RenderTransform>
+                        <RotateTransform Angle="0"/>
+                    </Grid.RenderTransform>
+                    <Grid.Triggers>
+                        <EventTrigger RoutedEvent="Grid.Loaded">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard >
+                                        <DoubleAnimation Storyboard.TargetName="WaitGridRoot" Storyboard.TargetProperty="(Grid.RenderTransform).(RotateTransform.Angle)" From="0" To="-360" Duration="0:0:1" RepeatBehavior="Forever"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                    </Grid.Triggers>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Ellipse  Grid.Row="0" Grid.Column="2" x:Name="Ellipse1" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse1" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.0625"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                        <Ellipse  Grid.Row="2" Grid.Column="4" x:Name="Ellipse3" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse3" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.1875"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                        <Ellipse  Grid.Row="4" Grid.Column="2" x:Name="Ellipse5" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse5" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.3125"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                        <Ellipse  Grid.Row="2" Grid.Column="0" x:Name="Ellipse7" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse7" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.4375"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                    </Grid>
+                    <Grid RenderTransformOrigin="0.5,0.5">
+                        <Grid.RenderTransform>
+                            <RotateTransform Angle="-45"/>
+                        </Grid.RenderTransform>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Ellipse  Grid.Row="0" Grid.Column="2" x:Name="Ellipse0" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse0" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                        <Ellipse  Grid.Row="2" Grid.Column="4" x:Name="Ellipse2" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse2" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:2:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.125"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                        <Ellipse  Grid.Row="4" Grid.Column="2" x:Name="Ellipse4" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse4" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.25"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                        <Ellipse  Grid.Row="2" Grid.Column="0" x:Name="Ellipse6" MinWidth="1" MinHeight="1" Fill="{StaticResource WorkingImageColour}">
+                            <Ellipse.Triggers>
+                                <EventTrigger RoutedEvent="Ellipse.Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Ellipse6" Storyboard.TargetProperty="(Ellipse.Opacity)" From="1" To="0" Duration="0:0:0.5" RepeatBehavior="Forever" BeginTime="0:0:0.375"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Ellipse.Triggers>
+                        </Ellipse>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid DockPanel.Dock="{Binding ElementName=Message, Path=Tag}" Height="{Binding ElementName=LayoutRoot, Path=ActualHeight}">
+                <TextBlock x:Name="Message" Background="Transparent" Visibility="Visible" FontFamily="Arial" FontSize="11" FontStyle="Normal" FontWeight="Regular" Margin="5" Tag="Bottom" VerticalAlignment="Center" HorizontalAlignment="Center" >Loading...</TextBlock>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</UserControl>

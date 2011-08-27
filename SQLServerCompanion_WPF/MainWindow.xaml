@@ -1,0 +1,259 @@
+﻿<myRibbon:RibbonWindow x:Class="SQLServerCompanion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:myRibbon="clr-namespace:Fluent;assembly=Fluent"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:CinchV2="clr-namespace:Cinch;assembly=Cinch.WPF"
+        xmlns:meffed="http:\\www.codeplex.com\MEFedMVVM" 
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"             
+        xmlns:ctl="clr-namespace:SQLServerCompanion.Controls"    
+        xmlns:views="clr-namespace:SQLServerCompanion.Views" 
+        xmlns:local="clr-namespace:SQLServerCompanion;assembly="
+        xmlns:helperClasses="clr-namespace:SQLServerCompanion.HelperClasses"    
+        xmlns:db="clr-namespace:Codeplex.Dashboarding;assembly=Codeplex.Dashboarding"                        
+        Title="SQL Server Companion" MinHeight="700" MinWidth="800"         
+        meffed:ViewModelLocator.ViewModel="MainWindowViewModel" WindowState="Maximized" >
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type CinchV2:WorkspaceData}">
+            <AdornerDecorator>
+                <Border HorizontalAlignment="Stretch" 
+                        VerticalAlignment="Stretch" 
+                        CinchV2:NavProps.ViewCreator="{Binding}"/>
+            </AdornerDecorator>
+        </DataTemplate>
+
+        <Style TargetType="{x:Type Grid}">
+            <Setter Property="Opacity" Value="1" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ShowServerConnectionPopup}" Value="True">
+                    <Setter Property="IsEnabled" Value="True" />
+                    <Setter Property="Opacity" Value="0.65" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <!--<Border x:Name="bdrRoot" CornerRadius="8"  BorderThickness="2,2,2,2" Style="{StaticResource MainGridBorder}">-->
+
+        <Grid x:Name="layoutRoot">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />                    
+            </Grid.RowDefinitions>
+
+            <myRibbon:Ribbon x:Name="myRibbon" Grid.Row="0">
+            
+                <myRibbon:RibbonTabItem x:Name="mainTab" Header="Main">
+                
+                    <myRibbon:RibbonGroupBox Header="DB Connection">
+                        <myRibbon:Button Header="Connect" Command="{Binding ViewConnectionPropertiesCommand}" Icon="Images/Connect_x32.png" LargeIcon="Images/Connect_x32.png" Name="btnConnect" />
+                        <myRibbon:Button Header="Disconnect" Command="{Binding DoDisconnectDBCommand}" LargeIcon="Images/Disconnect_x32.png" Name="btnDisconnect" />
+
+                    </myRibbon:RibbonGroupBox>
+
+                    <myRibbon:RibbonGroupBox Header="Scripting">
+                        <myRibbon:Button Header="Everything" IsEnabled="{Binding Path=IsDBSelected}" ToolTip="Script all database objects" LargeIcon="Images/Script_All.png" Command="{Binding ScriptEverythingCommand}" CommandParameter="{x:Static helperClasses:enumDatabaseObjectTypes.Everything}" SnapsToDevicePixels="True" />
+                        <myRibbon:Button Header="Indexes" IsEnabled="{Binding IsDBSelected}" ToolTip="Script indexes" LargeIcon="Images/Script_Indexes.png" SnapsToDevicePixels="True" Command="{Binding ScriptEverythingCommand}" CommandParameter="{x:Static helperClasses:enumDatabaseObjectTypes.Indexes}" />
+                        <myRibbon:Button Header="Stored Procs" IsEnabled="{Binding IsDBSelected}" ToolTip="Stored Procs" LargeIcon="Images/Script_SP.png" Command="{Binding ScriptEverythingCommand}" CommandParameter="{x:Static helperClasses:enumDatabaseObjectTypes.StoredProcedure}"/>
+                        <myRibbon:Button Header="Foreign Keys" IsEnabled="{Binding IsDBSelected}" ToolTip="Script foreign keys" LargeIcon="Images/Script_FK.png" Command="{Binding ScriptEverythingCommand}">
+                            <myRibbon:Button.CommandParameter>
+                                <helperClasses:enumDatabaseObjectTypes>ForeignKey</helperClasses:enumDatabaseObjectTypes>
+                            </myRibbon:Button.CommandParameter>
+                        </myRibbon:Button>
+                    </myRibbon:RibbonGroupBox>
+
+                    <myRibbon:RibbonGroupBox Header="SQL Pulse">
+                        <db:PerformanceMonitor IsEnabled="{Binding IsDBSelected}" x:Name="performanceMonitor"  
+                                           Value="{Binding Path=PerformanceMonitorValue}"  
+                                           Height="50" Width="150" 
+                                           ToolTip="SQL Pulse - Currently displays random values."
+                                           Maximum="49464800"
+                                           />
+                    </myRibbon:RibbonGroupBox>
+
+                    <!--<myRibbon:RibbonGroupBox Header="" HorizontalAlignment="Right">
+                    <Canvas Margin="0,0,0,0" Width="650"/>
+                </myRibbon:RibbonGroupBox>-->
+                
+                    <myRibbon:RibbonGroupBox Header="" DockPanel.Dock="Right">
+                        
+                            <Canvas Margin="0,0,0,0" Width="110" HorizontalAlignment="Center" >
+                                <Image Source="/Images/Calendar.png" Height="70" Width="100"></Image>
+                                <Label  Canvas.Left="10" Canvas.Top="4" Name="LblDayOfWeek" FontSize="14" FontWeight="Bold" Width="Auto"  HorizontalContentAlignment="Center"/>
+                                <Label Canvas.Left="10" Canvas.Top="14" Name="LblDayNumber" FontSize="25" FontWeight="Bold" Foreground="Red"  Width="Auto" HorizontalContentAlignment="Center" />
+                                <Label Canvas.Left="10" Canvas.Top="40" Name="LblMonth" FontSize="14" FontWeight="Bold"  Width="Auto" HorizontalContentAlignment="Center" />
+                            </Canvas>
+                    </myRibbon:RibbonGroupBox>
+                    
+            </myRibbon:RibbonTabItem>
+
+            <myRibbon:RibbonTabItem x:Name="helpTab" Header="Help">
+                <myRibbon:RibbonGroupBox Header="Documentation">
+                    <myRibbon:Button Header="About"  ToolTip="About this application" LargeIcon="Images/Info.png" Command="{Binding ShowHelpPageCommand}" SnapsToDevicePixels="True" />
+                </myRibbon:RibbonGroupBox>
+            </myRibbon:RibbonTabItem>
+            
+        </myRibbon:Ribbon>
+
+                <Canvas Style="{StaticResource LoadingStyle}">
+                    <ctl:WorkingImage ImageSize="50" ImageVisibility="Visible"/>
+                </Canvas>
+
+                <Grid x:Name="grdHost" Margin="2" Grid.Row="1" ShowGridLines="False" ScrollViewer.CanContentScroll="True" Opacity="1">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+
+                </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="130"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--<StackPanel Grid.Row="0" Grid.ColumnSpan="3" Background="Wheat">
+                <TextBlock Text="{Binding Path=ApplicationName}" FontSize="28"/>
+            </StackPanel>-->
+
+                    <!-- Row 1 Column 0 - Left hand listview  -->
+                    <ScrollViewer Grid.Row="1" Grid.Column="0" VerticalScrollBarVisibility="Visible">
+                        <DockPanel LastChildFill="True">
+                        <!--<StackPanel Orientation="Vertical"   CanVerticallyScroll="True">-->
+                            <Expander DockPanel.Dock="Top" Margin="0,0,0,10" VerticalAlignment="Top" Header="Databases" IsExpanded="{Binding Path=DBListExpanded}">
+                                <ListView x:Name="lstDbList" ItemsSource="{Binding DBList}" IsSynchronizedWithCurrentItem="True">
+                                    <i:Interaction.Behaviors>
+                                        <CinchV2:SelectorDoubleClickCommandBehavior Command="{Binding DBSelectedCommand}" CommandParameter="{Binding}" />
+                                    </i:Interaction.Behaviors>
+
+
+                                    <ListView.View>
+                                        <GridView ColumnHeaderContainerStyle="{DynamicResource MyListViewHeaderContainerStyle}">
+                                            <GridViewColumn Width="240" Header="DB Name">
+                                                <GridViewColumn.CellTemplate>
+                                                    <DataTemplate>
+                                                        <!--<Border BorderBrush="SteelBlue" BorderThickness="1,1,1,1" Margin="-6,0,-6,0">-->
+                                                        <TextBlock Text="{Binding Path=Name}" TextAlignment="Left" VerticalAlignment="Center"/>
+                                                        <!--</Border>-->
+                                                    </DataTemplate>
+                                                </GridViewColumn.CellTemplate>
+                                            </GridViewColumn>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            </Expander>
+
+                            <ComboBox Name="cmbDBObjects" DockPanel.Dock="Top" IsEnabled="{Binding IsDBSelected}" 
+                              ItemsSource="{Binding DBObjectTypesList}" 
+                              SelectedItem="{Binding Path=SelectedDBObjectType, Mode=TwoWay}" 
+                              BorderThickness="4" Height="25" Background="LightBlue"
+                              VerticalAlignment="Center"
+                              />
+                            
+                            <ListView x:Name="lstTableList" ItemsSource="{Binding ListViewObjectList}" DockPanel.Dock="Bottom">
+                                    <i:Interaction.Behaviors>
+                                        <CinchV2:SelectorDoubleClickCommandBehavior Command="{Binding SelectedObjectDoubleClickedCommand}" />                                        
+                                    </i:Interaction.Behaviors>
+                            <ListView.ContextMenu>
+                            <myRibbon:ContextMenu IsOpen="{Binding ShowContextMenu, Mode=OneWay}">
+                                <Menu x:Name="menu" Margin="0,0,0,0" Height="Auto" Foreground="Black"
+						                ItemContainerStyle="{StaticResource ContextMenuItemStyle}"
+						                ItemsSource="{Binding MainWindowOptions}"                                           
+						                BorderBrush="Transparent"
+						                VerticalAlignment="Top" Background="Transparent" />
+                            </myRibbon:ContextMenu>
+
+                            </ListView.ContextMenu>
+                                <ListView.View>
+                                    <GridView ColumnHeaderContainerStyle="{DynamicResource MyListViewHeaderContainerStyle}">
+                                            <GridViewColumn Width="240" Header="{Binding SelectedDBObjectType}">
+                                                <GridViewColumn.CellTemplate>
+                                                    <DataTemplate>
+                                                        <StackPanel Orientation="Horizontal" ToolTip="Double click me.">                                                            
+                                                            <TextBlock TextAlignment="Right" VerticalAlignment="Center" Text="{Binding Path=Schema}"/>
+                                                            <TextBlock TextAlignment="Right" VerticalAlignment="Center" Text="."/>
+                                                            <TextBlock TextAlignment="Left" VerticalAlignment="Center" Text="{Binding Path=Name}"/>                                                    
+                                                        </StackPanel>
+
+                                                    </DataTemplate>
+                                                    
+                                                </GridViewColumn.CellTemplate>
+                                            </GridViewColumn>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+                            
+                        <!--</StackPanel>-->
+                        </DockPanel>
+                </ScrollViewer>
+
+                <GridSplitter HorizontalAlignment="Right" 
+                        VerticalAlignment="Stretch" 
+                        Grid.Column="1" Grid.Row="1" ResizeBehavior="PreviousAndNext"
+                        Width="5" Background="#FFBCBCBC"/>
+
+                <Popup Placement="Center" IsOpen="{Binding ShowServerConnectionPopup}" StaysOpen="False"
+                    AllowsTransparency="True" UseLayoutRounding="True" 
+                    PlacementTarget="{Binding ElementName=layoutRoot}"
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    >
+
+                    <ctl:DBLogon DataContext="{Binding}"  FocusManager.IsFocusScope="True"/>
+                        
+                </Popup>
+
+                <!-- Row 1 Column 1 - Main script display area -->
+                <Grid x:Name="grdMain" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="0">
+                        <!-- If you want to show any data above the tab control, then put those controls here. -->
+                    </StackPanel>
+
+                    <!-- Main script display area - Grid row 1 -->
+
+                    <ctl:TabControlEx Grid.Row="1" x:Name="tab1" 
+                        ItemsSource="{Binding Views}"  TabStripPlacement="Top"
+                        CinchV2:NavProps.ShouldHideHostWhenNoItems="true"                                                
+                        IsSynchronizedWithCurrentItem="True"                                           
+                        ItemContainerStyle="{StaticResource TabItemStyleHorizontalTabs}"
+                        Style="{DynamicResource TabControlStyleHorizontalTabs}"                                       
+                        DisplayMemberPath="DisplayText">
+                    </ctl:TabControlEx>
+                </Grid>
+
+                <!--<GridSplitter HorizontalAlignment="Right" 
+                            VerticalAlignment="Stretch" 
+                            Grid.Column="3" Grid.Row="1" ResizeBehavior="PreviousAndNext"
+                            Width="5" Background="#FFBCBCBC"/>
+
+                <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="4">
+                    <TextBlock Background="Brown" Height="20" HorizontalAlignment="Center" FontWeight="Bold">Activity Log</TextBlock>
+                    <TextBox Width="Auto" Background="Black" Foreground="Green">12:15am - Main table scripted.</TextBox>
+                </StackPanel>-->
+
+                <Border Grid.Row="2" BorderThickness="2" Background="LightGray" Grid.ColumnSpan="5">
+                <DockPanel>
+
+                    <TextBlock DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Center">Version : </TextBlock>
+                    <TextBlock DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Center" Text="{Binding Path=ApplicationVersionNumber}"/>
+                    <TextBlock DockPanel.Dock="Right" HorizontalAlignment="Right" VerticalAlignment="Center">Written by M Punglia</TextBlock>
+                </DockPanel>
+                    
+                
+                </Border>
+            </Grid>
+
+
+        </Grid>
+    <!--</Border>-->
+</myRibbon:RibbonWindow>
