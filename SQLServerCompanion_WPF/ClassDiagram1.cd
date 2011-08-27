@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SQLServerCompanion.App" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.MainWindow" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.BoolToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValueConverters\BoolToVisibilityConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Controls.ProgressBarEx" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAABAAAAIhAIACAAAAAgAAAAAEAAACgAAAAA=</HashCode>
+      <FileName>Controls\ProgressBarEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.Controls.TabControlEx" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAABAAAAAAAAAAAAAAAAAAAAAABBAIAACEAA=</HashCode>
+      <FileName>Controls\TabControlEx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.Controls.ToggleButtonControl" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAMAAAABAAAAAI=</HashCode>
+      <FileName>Controls\ToggleButtonControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.Controls.WorkingImage" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADACQAAAAAAAAAAIAAAQBAACAACACAAAABAAAAAA=</HashCode>
+      <FileName>Controls\WorkingImage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.HelperClasses.BusinessLogic" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QqYIAACAAABIEwAUBEUAwIFgAQQBCEAEAAEEAABKECQ=</HashCode>
+      <FileName>HelperClasses\BusinessLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.HelperClasses.ObjectsToScriptOptions" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAACSAAAAAAAAAAABAABABCAAAAAABAAgQEAQ=</HashCode>
+      <FileName>HelperClasses\BusinessLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.HelperClasses.DBServerConnectionSingleton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AI4EAAAAAAEAAZAABQQAAogAhAgQAAACQAIKIAIJEAg=</HashCode>
+      <FileName>HelperClasses\DBServerConnectionSingleton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.HelperClasses.ExtensionMethods" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HelperClasses\ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.HelperClasses.PasswordHelper" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAIQAgEBAEAAAAAAIAAABAAAAAAgAAAICA=</HashCode>
+      <FileName>HelperClasses\PasswordHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.HelperClasses.VirtualizingSQLDataItemProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HelperClasses\VirtualizingSQLDataItemProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.Properties.Settings" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAiAQAEAAACIAAAIAABAAAAAAAAAAIACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.DBLogonViewModel" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABAACAA=</HashCode>
+      <FileName>ViewModels\DBLogonViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.DBViewsViewModel" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAkDAAABAEAAQAAABAAAAAAAQAABAAAAAABACCCI=</HashCode>
+      <FileName>ViewModels\DBViewsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.DisplayScriptViewModel" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAECAAAAAEAAAAAABAAAAAAAQAAAAAAAAABAACCA=</HashCode>
+      <FileName>ViewModels\DisplayScriptViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.ForeignKeysViewModel" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgAkCAAAAAEAAAAAABAAAAAAAQAAAAAAAAABAACiI=</HashCode>
+      <FileName>ViewModels\ForeignKeysViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.HomepageViewModel" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAkjAAADAGgAwAAABEAAAEAgAgIAAACggAFACCAI=</HashCode>
+      <FileName>ViewModels\HomepageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.IndexesViewModel" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgAkCAAAAAEAAAAAABAAAAAAAQAAAAAAAAABAACCI=</HashCode>
+      <FileName>ViewModels\IndexesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.MainWindowViewModel" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gI4gBszAAAREGAgRAUQFjiCANxBLAEB2oIoFsFCEDAY=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.ScriptTableDataViewModel" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAkDAAABAEAAQAAABAgAAIAAQAAAAAAgAABAAGCI=</HashCode>
+      <FileName>ViewModels\ScriptTableDataViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.StoredProcsViewModel" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAkDAAABAEAAQAIABAAAAAAAQAAAAAAAAABAACCI=</HashCode>
+      <FileName>ViewModels\StoredProcsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.TablesViewModel" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAkDAAABAEgAwAAABAAAAEAgAAAAAAAgAABACCAI=</HashCode>
+      <FileName>ViewModels\TablesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.ViewModels.TriggersViewModel" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAkDAAABAEAAQAEABAAAAAABQAAAAAAAAABAACCI=</HashCode>
+      <FileName>ViewModels\TriggersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SQLServerCompanion.Views.DBLogonView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\DBLogonView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.DBViewsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\DBViewsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.DisplayScriptView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\DisplayScriptView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.ForeignKeysView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ForeignKeysView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.HelpPageView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\HelpPageView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.HomepageView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\HomepageView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.IndexesView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IndexesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.ScriptTableDataView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ScriptTableDataView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.StoredProcsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\StoredProcsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.TablesView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\TablesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SQLServerCompanion.Views.TriggersView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\TriggersView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="SQLServerCompanion.HelperClasses.enumDatabaseObjectTypes" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAEAACBAAAAAAQAAAAAIBAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>HelperClasses\enumDatabaseObjectTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

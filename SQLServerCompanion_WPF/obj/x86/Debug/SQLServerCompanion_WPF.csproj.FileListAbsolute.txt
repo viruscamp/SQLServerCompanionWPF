@@ -1,0 +1,229 @@
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\DLLS\Cinch.WPF.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\SQLServerCompanion.exe
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\SQLServerCompanion.pdb
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\Cinch.WPF.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\MEFedMVVM.WPF.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\RibbonControlsLibrary.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\System.Windows.Interactivity.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\Microsoft.Windows.Shell.dll
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\RibbonControlsLibrary.pdb
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\RibbonControlsLibrary.xml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\bin\Debug\Microsoft.Windows.Shell.xml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Controls\WorkingImage.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Resources\ShinyBlueTheme.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Resources\ShinyRedTheme.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Resources\XamlIcons.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\App.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Controls\WorkingImage.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\DBLogonView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\DBViewsView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\DisplayScriptView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\ForeignKeysView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\HomepageView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\IndexesView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\StoredProcsView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\TablesView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\TriggersView.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\App.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion_Content.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.cache
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.lref
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\MainWindow.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Resources\AppStyles.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Resources\TabStyles.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Resources\TabStyles2.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\DBLogonView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\DBViewsView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\DisplayScriptView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\ForeignKeysView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\HomepageView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\IndexesView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\StoredProcsView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\TablesView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\Views\TriggersView.baml
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion.g.resources
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion.Properties.Resources.resources
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion.exe
+C:\SubversionData\MyProjects\SQLBrowser_WPF\SQLBrowser_WPF\obj\x86\Debug\SQLServerCompanion.pdb
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\DLLS\AsyncCtpLibrary.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\DLLS\Cinch.WPF.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe.config
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.pdb
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\AsyncCtpLibrary.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Cinch.WPF.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Codeplex.Dashboarding.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\DataVirtualisation.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Fluent.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\MEFedMVVM.WPF.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Microsoft.Windows.Shell.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\System.Windows.Interactivity.dll
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Microsoft.Windows.Shell.xml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Controls\WorkingImage.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Resources\XamlIcons.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\App.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Controls\WorkingImage.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBLogonView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBViewsView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DisplayScriptView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ForeignKeysView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\HomepageView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\IndexesView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ScriptTableDataView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\StoredProcsView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TablesView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TriggersView.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\App.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_Content.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.cache
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.lref
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\MainWindow.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Resources\AppStyles.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Resources\TabStyles.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBLogonView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBViewsView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DisplayScriptView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ForeignKeysView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\HomepageView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\IndexesView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ScriptTableDataView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\StoredProcsView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TablesView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TriggersView.baml
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.g.resources
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.Properties.Resources.resources
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.exe
+C:\SubversionData\MyProjects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.pdb
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Referenced_DLLS\AsyncCtpLibrary.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Referenced_DLLS\Cinch.WPF.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe.config
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe.manifest
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.application
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.pdb
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\AsyncCtpLibrary.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Cinch.WPF.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Codeplex.Dashboarding.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Fluent.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\MEFedMVVM.WPF.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Controls\WorkingImage.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Resources\XamlIcons.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\HelpPageView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\App.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Controls\DBLogon.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Controls\WorkingImage.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBViewsView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DisplayScriptView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ForeignKeysView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\HelpPageView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\HomepageView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\IndexesView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ScriptTableDataView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\StoredProcsView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TablesView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TriggersView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\App.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_Content.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.cache
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.lref
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Controls\DBLogon.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Resources\AppStyles.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Resources\TabStyles.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBViewsView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\DisplayScriptView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ForeignKeysView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\HomepageView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\IndexesView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\ScriptTableDataView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\StoredProcsView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TablesView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\Views\TriggersView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.g.resources
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.Properties.Resources.resources
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.TrustInfo.xml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.exe.manifest
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.application
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.exe
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.pdb
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe.config
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.exe
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.pdb
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\Referenced_DLLS\AsyncCtpLibrary.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\Referenced_DLLS\Cinch.WPF.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe.manifest
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.application
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.exe
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\SQLServerCompanion.pdb
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\AsyncCtpLibrary.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\Cinch.WPF.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\Codeplex.Dashboarding.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\DataVirtualisation.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\Fluent.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\MEFedMVVM.WPF.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Controls\WorkingImage.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Resources\XamlIcons.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\HelpPageView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\App.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Controls\DBLogon.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Controls\WorkingImage.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBViewsView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\DisplayScriptView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\ForeignKeysView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\HelpPageView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\HomepageView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\IndexesView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\ScriptTableDataView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\StoredProcsView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\TablesView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\TriggersView.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\App.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_Content.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.cache
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion_MarkupCompile.lref
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Controls\DBLogon.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Resources\AppStyles.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Resources\TabStyles.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\DBViewsView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\DisplayScriptView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\ForeignKeysView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\HomepageView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\IndexesView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\ScriptTableDataView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\StoredProcsView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\TablesView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\Views\TriggersView.baml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.g.resources
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.Properties.Resources.resources
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.TrustInfo.xml
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.exe.manifest
+C:\Users\mpunglia\Documents\Visual Studio 2010\Projects\SQLServerCompanion_WPF_Mercurial\SQLServerCompanion_WPF\obj\x86\Debug\SQLServerCompanion.application

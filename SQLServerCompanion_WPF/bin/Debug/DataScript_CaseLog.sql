@@ -1,0 +1,4 @@
+IF NOT EXISTS (SELECT 1 FROM [dbo].[CaseLog])
+
+BEGIN
+END
