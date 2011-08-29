@@ -13,7 +13,7 @@ using SQLServerCompanion.HelperClasses;
 
 namespace SQLServerCompanion
 {
-    public class DBServerConnectionSingleton : INotifyPropertyChanged
+    public class DBServerConnectionSingleton 
     {
         private static DBServerConnectionSingleton _instance;
         private static object syncLock = new object(); // Lock synchronization object
@@ -205,27 +205,13 @@ namespace SQLServerCompanion
             }
         }
 
-
-        private int _CountDownTimerValue = 60;
-        public int CountDownTimerValue
-        {
-            get { return _CountDownTimerValue; }
-            set
-            {
-                _CountDownTimerValue = value;                
-                NotifyPropertyChanged(MethodBase.GetCurrentMethod().GetPropertyName());
-            }
-
-        }
-
         private Int64 _BatchRequestsPerSecond = 0;
         public Int64 BatchRequestsPerSecond
         {
             get { return _BatchRequestsPerSecond; }
             set
             {
-                _BatchRequestsPerSecond = value;
-                NotifyPropertyChanged(MethodBase.GetCurrentMethod().GetPropertyName());
+                _BatchRequestsPerSecond = value;                
             }
         }
 
@@ -263,31 +249,32 @@ namespace SQLServerCompanion
 
         #endregion
 
-        #region NotifyPropertyChanged
+        //#region NotifyPropertyChanged
 
-        /// <summary>
-        /// Raises this object's NotifyPropertyChanged event.
-        /// </summary>
-        /// <param name="propertyName">The property that has a new value.</param>
-        protected void NotifyPropertyChanged(string propertyName)
-        {
-            PropertyChangedEventHandler handler = this.PropertyChanged;
-            if (handler != null)
-            {
-                var e = new PropertyChangedEventArgs(propertyName);
-                handler(this, e);
-            }
-        }
+        ///// <summary>
+        ///// Raises this object's NotifyPropertyChanged event.
+        ///// </summary>
+        ///// <param name="propertyName">The property that has a new value.</param>
+        //protected void NotifyPropertyChanged(string propertyName)
+        //{
+        //    PropertyChangedEventHandler handler = this.PropertyChanged;
+        //    if (handler != null)
+        //    {
+        //        var e = new PropertyChangedEventArgs(propertyName);
+        //        handler(this, e);
+        //    }
+        //}
 
-        #endregion // NotifyPropertyChanged
+        //#endregion // NotifyPropertyChanged
 
-        #region INotifyPropertyChanged Members
+        //#region INotifyPropertyChanged Members
 
-        /// <summary>
-        /// Raised when a property on this object has a new value.
-        /// </summary>
-        public event PropertyChangedEventHandler PropertyChanged;
+        ///// <summary>
+        ///// Raised when a property on this object has a new value.
+        ///// </summary>
+        //public event PropertyChangedEventHandler PropertyChanged;
 
-        #endregion // INotifyPropertyChanged Members
+        //#endregion // INotifyPropertyChanged Members
+
     }//class
 }//namespace

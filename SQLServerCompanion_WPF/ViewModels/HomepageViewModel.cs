@@ -29,7 +29,6 @@ namespace SQLServerCompanion.ViewModels
         private BackgroundWorker _backgroundWorker;
         private BusinessLogic cn = null;
         private static SimpleRule dbSelectedRule;
-        private DispatcherTimer timer;
         private MainWindowViewModel vmMainWindow;
 
         [ImportingConstructor]
@@ -46,8 +45,6 @@ namespace SQLServerCompanion.ViewModels
 
             //Commands
             DoScriptCommand = new SimpleCommand<Object, Object>(ExecuteDoScriptCommand);
-
-            timer = new DispatcherTimer();
 
         }
 
@@ -68,31 +65,8 @@ namespace SQLServerCompanion.ViewModels
                     SelectedDB = vm.SelectedDB;
                 }
 
-                TimerStart(1);
             }
             
-        }
-
-
-        public void TimerStart(int PeriodInSeconds)
-        {
-            timer.Interval = TimeSpan.FromSeconds(PeriodInSeconds);
-            timer.Tick += timer_Task;
-            timer.Start();
-        }
-
-        public void TimerStop()
-        {
-            timer.Stop();
-        }
-
-        private void timer_Task(object sender, EventArgs e)
-        {
-            DBServerConnectionSingleton.Instance.CountDownTimerValue--;
-            if (DBServerConnectionSingleton.Instance.CountDownTimerValue == 0)
-            {
-                DBServerConnectionSingleton.Instance.CountDownTimerValue = 60;
-            }            
         }
 
         private void ExecuteDoScriptCommand(Object args)
